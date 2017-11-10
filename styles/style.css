@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: "Avenir", sans-serif;
+  padding: 2% ;
+}
+
+img, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1, #label, #about, #flickr
+{ line-height: 1.25em;
+  padding: 0 20%;
+  margin:auto;
+}
+
+
+
+#hero {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 0 20%;
+}
+
+
+#art {
+  width: 100%;
+  padding: 1em 0;
+}
+
+#inside {
+  margin: auto;
+  width: 844px;
+}
+
+#good {
+  margin-right: 10px;
+}
+
+#mad {
+  margin-right: 10px;
+}
+
+#rebel {
+  margin-right: 10px;
+}
+
+#loud {
+  margin-right: 0;
+}
+
+audio
+{
+  max-width:100%;
+  display: block;
+  margin:auto;
+}
+
+/* links */
+
+a {
+  color: #4286f4;
+}
+
+a:hover {
+  color: #cd41f4;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  h1, #label, #about, #flickr
+  {
+      padding: 0 5%;
+  }
+
+  #hero {
+      padding: 0 5%;
+  }
+
+  #inside {
+    margin: auto;
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 440px)  {
+ #inside {
+    margin: auto;
+    width: 200px;
+  }
+}

@@ -64,6 +64,10 @@ audio
   display: block;
   margin:auto;
 }
+.album p
+{ text-align: center;
+
+}
 
 /* links */
 
